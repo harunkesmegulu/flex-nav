@@ -53,4 +53,16 @@ nav .left {
     border-radius: 10px;
     color: var(--beyaz);
   }
-  
+  nav .right {
+    text-align: right;
+    background-color: var(--mavi-7);
+    box-shadow: var(--acik-golge);
+  }
+  nav .right i {
+    color: var(--siyah);
+    font-size: 40px;
+    transition: font-size 0.5s;
+  }
+  nav .right i:hover {
+    font-size: 50px;
+  }
