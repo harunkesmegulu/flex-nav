@@ -1,0 +1,37 @@
+/**Renk temasını import ettik*/
+@import "color-theme.css";
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-monteserrat);
+  font-weight: 600;
+}
+nav .left img {
+    width: 40px;
+    height: 40px;
+  }
+nav {
+    margin-top: 0.5rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .left,
+nav .middle,
+nav .right {
+  width: 33%;
+  /**elemanların büyümesine izin ver*/
+  /* flex-grow: 1; */
+  /*!Tüm elemanların eşit miktarda alan tutabilmesine izin ver.*/
+  /* flex-basis: 0; */
+}
+nav .left {
+    background-color: var(--gri-8);
+    box-shadow: var(--açık-gölge);
+  }
+  nav .left img {
+    width: 40px;
+    height: 40px;
+  }
