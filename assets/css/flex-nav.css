@@ -35,3 +35,22 @@ nav .left {
     width: 40px;
     height: 40px;
   }
+  nav .middle {
+    text-align: center;
+    background-color: var(--mavi-10);
+    box-shadow: var(--koyu-golge);
+    border-radius: 10px;
+  }
+  nav .middle .item {
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px;
+    color: var(--siyah);
+    transition: background-color 1s, color 1s;
+  }
+  nav .middle .item:hover {
+    background-color: var(--mavi-6);
+    border-radius: 10px;
+    color: var(--beyaz);
+  }
+  
